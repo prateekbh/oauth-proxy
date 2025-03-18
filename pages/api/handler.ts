@@ -13,6 +13,7 @@ export default function handler(
     // @ts-expect-error
     method: req.method,
     body: req.body,
-    qs: req.query
+    qs: req.query,
+    url: req.url
   })
 }
